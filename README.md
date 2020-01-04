@@ -23,5 +23,11 @@ Look up the instructions here: https://en.wikipedia.org/wiki/Minesweeper_(video_
 
 **Note:** `foo` and `bar` can be anything: `String`s, random `Integers`, anything.
 
+## What do all these weird symbols mean?
+- `•` denotes a mine
+- `!` denotes a flag
+- `�` denotes a uncovered tile or cell.
+- `1` or `2` or `3`... denote the number of immediate mine neighbours a tile has.
+
 ## Why?
 Why not?
