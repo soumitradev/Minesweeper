@@ -101,12 +101,10 @@ function show(board, tile)
     end
 end
 
-# If game is over, show the entire board.
-function game_over(board)
-    for x in 1:length(board)
-        for y in 1:length(board[1])
-            (board[x][y]).shown = true
-        end
+# If game is over, show the leftover mines.
+function game_over(board, mine_pos_arr)
+    for pos in mine_pos_arr
+        (board[pos[1]][pos[2]]).shown = true
     end
 end
 
@@ -210,7 +208,7 @@ while true
 
         # If the mined cell is a mine, game over.
         if (grid[parse(Int, txt[2])][parse(Int, txt[3])]).is_mine == true
-            game_over(grid)
+            game_over(grid, mine_pos_arr)
             print_board(grid)
             println("You lose. Better luck next time!")
             break
