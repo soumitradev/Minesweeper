@@ -9,6 +9,11 @@ A simple minesweeper game implemented in Julia using a bit of OOP.
 - Custom grid sizes!
 - Allows user to flag certain cells to help while playing
 
+## Demo
+I have made a video showing a playthrough of the game here: https://youtu.be/yTB0-xnQN8M
+
+[![https://youtu.be/yTB0-xnQN8M](https://img.youtube.com/vi/yTB0-xnQN8M/0.jpg)](https://www.youtube.com/watch?v=yTB0-xnQN8M)
+
 ## How to Play
 Look up the instructions here: https://en.wikipedia.org/wiki/Minesweeper_(video_game)
 
