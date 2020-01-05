@@ -7,7 +7,7 @@ function get_input(text_to_print, in_same_line, allowed_options, required_params
     # If we want to print on the same line, use `print()`. Else, `use println()`
     in_same_line ? print(text_to_print) : println(text_to_print)
 
-    # Get input and split it into n array
+    # Get input and split it into an array
     txtin = split(lowercase(readline()));
 
     # If the required amount of parameters is not met or if the command is not in the list of allowed options,
@@ -169,8 +169,8 @@ function start_game()
         board = init_board(16, 16, 20)
         return board
     else
-        params = get_input("Enter the number of rows, columns and mines seperated by spaces (1-99): ", true, [1:99...], 3)
-        board = init_board(params[1], params[2], params[3])
+        params = split(get_input("Enter the number of rows, columns and mines seperated by spaces (1-99): ", true, string.(collect(1:99)), 3))
+        board = init_board(parse(Int, params[1]), parse(Int, params[2]), parse(Int, params[3]))
         return board
     end
 end
