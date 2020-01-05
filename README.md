@@ -14,6 +14,17 @@ I have made a video showing a playthrough of the game here: https://youtu.be/yTB
 
 [![https://youtu.be/yTB0-xnQN8M](https://img.youtube.com/vi/yTB0-xnQN8M/0.jpg)](https://www.youtube.com/watch?v=yTB0-xnQN8M)
 
+#### Timestamps if you don't want to get bored for 7 and half minutes:
+0:00 to 1:04: 8x8 easy mode demo
+
+1:04 to 1:11: replay demo
+
+1:11 to 6:55: 16x16 hard mode demo (I actually win this one!)
+
+7:04 to 7:30: custom mode demo
+
+7:30 to 7:33: don't replay demo
+
 ## How to Play
 Look up the instructions here: https://en.wikipedia.org/wiki/Minesweeper_(video_game)
 
