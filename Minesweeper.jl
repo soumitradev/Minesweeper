@@ -159,13 +159,13 @@ function start_game()
     - `medium`: 16x16 grid, with 20 mines (fullscreen recommended)
     - `custom`: You specify the parameters!
     """
-    diff_seleted = get_input(difficulty, true, ["easy", "medium", "custom"], 1)
+    diff_selected = get_input(difficulty, true, ["easy", "medium", "custom"], 1)
 
     # Based on the selected difficulty, initialize game.
-    if diff_seleted == "easy"
+    if diff_selected == "easy"
         board = init_board(8, 8, 9)
         return board
-    elseif diff_seleted == "medium"
+    elseif diff_selected == "medium"
         board = init_board(16, 16, 20)
         return board
     else
