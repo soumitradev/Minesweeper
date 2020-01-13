@@ -10,9 +10,9 @@ A simple minesweeper game implemented in Julia using a bit of OOP.
 - Allows user to flag certain cells to help while playing
 
 ## Demo
-I have made a video showing a playthrough of the game here: https://youtu.be/yTB0-xnQN8M
+I have made a video showing a playthrough of the game here: https://youtu.be/FUMC3qSjVDg
 
-[![https://youtu.be/yTB0-xnQN8M](https://img.youtube.com/vi/yTB0-xnQN8M/0.jpg)](https://www.youtube.com/watch?v=yTB0-xnQN8M)
+[![https://youtu.be/FUMC3qSjVDg](https://img.youtube.com/vi/FUMC3qSjVDg/0.jpg)](https://www.youtube.com/watch?v=FUMC3qSjVDg)
 
 #### Timestamps if you don't want to get bored for 7 and half minutes:
 0:00 to 1:04: 8x8 easy mode demo
